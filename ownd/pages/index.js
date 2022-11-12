@@ -21,11 +21,11 @@ export default function Home() {
         .then(data => setCollections(data.collections))
   }
 
-  const getPrices = async (address) => {
+/*   const getPrices = async (address) => {
     fetch(`https://api.reservoir.tools/orders/asks/v3?token=${address}&sortBy=price&limit=1`)
       .then(response => response.json())
       .then(data => console.log(data[0]))
-  }
+  } */
 
   const renderCollections = () => {
     if (collections.length > 0) {
