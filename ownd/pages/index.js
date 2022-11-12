@@ -35,13 +35,13 @@ export default function Home() {
             <a href={collections[0].externalUrl}><img src={collections[0].image} width="200" height="200"/></a>
             <div><a href={collections[0].externalUrl}>{collections[0].name}</a></div>
             <div>${collections[0].floorAsk.price.amount.usd} USD</div>
-            <div>{collections[0].floorAsk.price.amount.raw/10e18} ETH</div>
+            <div>{collections[0].floorAsk.price.amount.raw/10e17} ETH</div>
           </div>
           <div>
             <a href={collections[1].externalUrl}><img src={collections[1].image} width="200" height="200"/></a>
             <div><a href={collections[1].externalUrl}>{collections[1].name}</a></div>
             <div>${collections[1].floorAsk.price.amount.usd} USD</div>
-            <div>{collections[1].floorAsk.price.amount.raw/10e18} ETH</div>
+            <div>{collections[1].floorAsk.price.amount.raw/10e17} ETH</div>
           </div>
       </div>
       )
